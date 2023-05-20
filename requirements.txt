@@ -1,6 +1,6 @@
-pyaudio
-grpcio
-requests
-soundfile
-numpy
-google-api-python-client
+google-api-python-client==2.86.0
+grpcio==1.54.2
+numpy==1.24.3
+pyaudio==0.2.13
+requests==2.30.0
+soundfile==0.12.1

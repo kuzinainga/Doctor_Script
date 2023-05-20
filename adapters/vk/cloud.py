@@ -25,7 +25,6 @@ class VKCloudAudioRecognizer(ISpeechRecognizer):
             },
             data=audio_data
         )
-        print(f'VKCloudAudioRecognizer: {response.json()=}')
         response = response.json()
         return response
 

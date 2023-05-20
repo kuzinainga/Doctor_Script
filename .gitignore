@@ -3,7 +3,8 @@ __pycache__/
 
 /.idea/
 /assets/
+/env/
+
 /.env
 /recording.wav
 /recording.ogg
-/env

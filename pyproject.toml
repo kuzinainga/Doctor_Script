@@ -1,16 +1,18 @@
 [tool.poetry]
-name = "kesha"
+name = "doctor script"
 version = "0.1.0"
-description = ""
+description = "Программа для распознования голосовых команд"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-pyaudio = "^0.2.13"
-requests = "^2.30.0"
-speechkit = "^2.2.2"
-pydantic = "^1.10.7"
+python = "^3.8"
+google-api-python-client = "2.86.0"
+grpcio = "1.54.2"
+numpy = "1.24.3"
+pyaudio = "0.2.13"
+requests = "2.30.0"
+soundfile = "0.12.1"
 
 
 [build-system]
